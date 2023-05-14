@@ -30,7 +30,7 @@ def main():
         first_name.place(x=400, y=150)
         fir_name_entry = Entry(base, width=15, font=("Arial 15"))
         fir_name_entry.place(x=400, y=180)
-        fir_name_entry.focus()
+        fir_name_entry.focus()  
         last_name = Label(base, text="Last Name", font=("Arial 15 bold"), bg="silver", fg="black")
         last_name.place(x=610, y=150)
         last_name_entry = Entry(base, width=15, font=("Arial 15"))
